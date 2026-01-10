@@ -7,18 +7,18 @@ export default function Home() {
       <Header />
 
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center pt-20">
-        <div className="max-w-6xl mx-auto px-6 py-20 text-center">
-          <div className="mb-16">
-            <h2 className="text-7xl md:text-8xl lg:text-9xl font-light tracking-wider mb-8 text-black">
+      <section className="min-h-screen flex items-center justify-center pt-20 px-4">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-20 text-center">
+          <div className="mb-12 sm:mb-16">
+            <h2 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-light tracking-wider mb-6 sm:mb-8 text-black">
               MODE
             </h2>
-            <h2 className="text-7xl md:text-8xl lg:text-9xl font-light tracking-wider text-black">
+            <h2 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-light tracking-wider text-black">
               CIRCULAIRE
             </h2>
           </div>
-          <div className="w-32 h-px bg-black mx-auto mb-16"></div>
-          <p className="text-lg tracking-wide text-black/70 max-w-2xl mx-auto leading-relaxed">
+          <div className="w-24 sm:w-32 h-px bg-black mx-auto mb-12 sm:mb-16"></div>
+          <p className="text-base sm:text-lg tracking-wide text-black/70 max-w-2xl mx-auto leading-relaxed px-4">
             Une approche innovante de la mode durable, 
             où chaque pièce raconte une histoire de transformation et de conscience environnementale.
           </p>
@@ -26,9 +26,9 @@ export default function Home() {
       </section>
 
       {/* Info Section */}
-      <section className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-3 gap-12">
+      <section className="py-16 sm:py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-12">
             {/* Fournisseurs */}
             <div className="text-center">
               <div className="w-16 h-16 rounded-full bg-rose-quartz mx-auto mb-6 flex items-center justify-center">

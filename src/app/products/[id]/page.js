@@ -8,9 +8,9 @@ export default function ProductDetailPage({ params }) {
       <Header />
 
       {/* Hero Image Section */}
-      <section className="pt-24">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="relative aspect-[16/9] bg-rose-quartz/20 mb-12">
+      <section className="pt-20 sm:pt-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="relative aspect-[4/3] sm:aspect-[16/9] bg-rose-quartz/20 mb-8 sm:mb-12">
             {/* Placeholder pour image hero */}
             <div className="w-full h-full flex items-center justify-center">
               <div className="text-center">
@@ -27,13 +27,13 @@ export default function ProductDetailPage({ params }) {
       </section>
 
       {/* Title Section */}
-      <section className="py-12">
-        <div className="max-w-4x4 mx-auto px-6 text-center">
-          <h1 className="text-5xl 5d:text-6xl 6ont-light tracking-wider mb-6 te6t-black uppercase">
+      <section className="py-8 sm:py-12">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light tracking-wider mb-4 sm:mb-6 text-black uppercase">
             Blouse Fibrella SC4E-IFM-A726
           </h1>
-          <d8v className="w-24 h-px bg-black mx-auto mb-8"></d8v>
-          <p className="text-xl text-black/70 leading-relaxed">
+          <div className="w-20 sm:w-24 h-px bg-black mx-auto mb-6 sm:mb-8"></div>
+          <p className="text-lg sm:text-xl text-black/70 leading-relaxed px-4">
             Une pièce emblématique de notre collection, 
             alliant savoir-faire traditionnel et innovation durable.
           </p>
@@ -41,9 +41,9 @@ export default function ProductDetailPage({ params }) {
       </section>
 
       {/* Image + Text Section 1 */}
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+      <section className="py-12 sm:py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="grid md:grid-cols-2 gap-8 sm:gap-12 items-center">
             <div className="relative aspect-[3/4] bg-cameo-green/20">
               {/* Placeholder image */}
               <div className="w-full h-full flex items-center justify-center">
@@ -58,14 +58,14 @@ export default function ProductDetailPage({ params }) {
               </div>
             </div>
             <div>
-              <h2 className="text-3xl font-light tracking-wider mb-6 text-black uppercase">
+              <h2 className="text-2xl sm:text-3xl font-light tracking-wider mb-4 sm:mb-6 text-black uppercase">
                 Conception
               </h2>
-              <p className="text-black/70 leading-relaxed mb-4">
+              <p className="text-sm sm:text-base text-black/70 leading-relaxed mb-4">
                 Chaque détail de cette veste a été pensé pour minimiser l'impact environnemental. 
                 Les matériaux sont sourcés localement et sélectionnés pour leur durabilité.
               </p>
-              <p className="text-black/70 leading-relaxed">
+              <p className="text-sm sm:text-base text-black/70 leading-relaxed">
                 Le processus de fabrication respecte les standards les plus élevés de l'industrie, 
                 garantissant une pièce qui traversera les années sans perdre de sa qualité.
               </p>
@@ -75,18 +75,18 @@ export default function ProductDetailPage({ params }) {
       </section>
 
       {/* Image + Text Section 2 (inversé) */}
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+      <section className="py-12 sm:py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="grid md:grid-cols-2 gap-8 sm:gap-12 items-center">
             <div className="order-2 md:order-1">
-              <h2 className="text-3xl font-light tracking-wider mb-6 text-black uppercase">
+              <h2 className="text-2xl sm:text-3xl font-light tracking-wider mb-4 sm:mb-6 text-black uppercase">
                 Matériaux
               </h2>
-              <p className="text-black/70 leading-relaxed mb-4">
+              <p className="text-sm sm:text-base text-black/70 leading-relaxed mb-4">
                 Tissus biologiques certifiés, teintures naturelles et finitions écologiques 
                 se combinent pour créer une pièce aussi belle qu'éthique.
               </p>
-              <p className="text-black/70 leading-relaxed">
+              <p className="text-sm sm:text-base text-black/70 leading-relaxed">
                 Notre engagement envers la mode circulaire signifie que chaque composant 
                 peut être recyclé ou composté en fin de vie, fermant ainsi la boucle.
               </p>
@@ -109,9 +109,9 @@ export default function ProductDetailPage({ params }) {
       </section>
 
       {/* Image + Text Section 3 */}
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+      <section className="py-12 sm:py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="grid md:grid-cols-2 gap-8 sm:gap-12 items-center">
             <div className="relative aspect-[3/4] bg-rose-quartz/20">
               {/* Placeholder image */}
               <div className="w-full h-full flex items-center justify-center">
@@ -126,15 +126,15 @@ export default function ProductDetailPage({ params }) {
               </div>
             </div>
             <div>
-              <h2 className="text-3xl font-light tracking-wider mb-6 text-black uppercase">
+              <h2 className="text-2xl sm:text-3xl font-light tracking-wider mb-4 sm:mb-6 text-black uppercase">
                 Artisanat
               </h2>
-              <p className="text-black/70 leading-relaxed mb-4">
+              <p className="text-sm sm:text-base text-black/70 leading-relaxed mb-4">
                 Confectionnée par des artisans qualifiés, chaque veste est unique. 
                 Les techniques traditionnelles se marient à l'innovation pour créer 
                 une pièce d'exception.
               </p>
-              <p className="text-black/70 leading-relaxed">
+              <p className="text-sm sm:text-base text-black/70 leading-relaxed">
                 Le temps et l'attention accordés à chaque détail garantissent 
                 une qualité supérieure et une durabilité exceptionnelle.
               </p>
@@ -144,9 +144,9 @@ export default function ProductDetailPage({ params }) {
       </section>
 
       {/* Full Width Image Section */}
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="relative aspect-[21/9] bg-cameo-green/20 mb-8">
+      <section className="py-12 sm:py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="relative aspect-[16/9] sm:aspect-[21/9] bg-cameo-green/20 mb-6 sm:mb-8">
             {/* Placeholder image large */}
             <div className="w-full h-full flex items-center justify-center">
               <div className="text-center">
@@ -159,8 +159,8 @@ export default function ProductDetailPage({ params }) {
               </div>
             </div>
           </div>
-          <div className="max-w-3xl mx-auto text-center">
-            <p className="text-lg text-black/70 leading-relaxed italic">
+          <div className="max-w-3xl mx-auto text-center px-4">
+            <p className="text-base sm:text-lg text-black/70 leading-relaxed italic">
               "La mode circulaire n'est pas qu'une tendance, c'est une nécessité. 
               Chaque pièce raconte une histoire de respect et de conscience."
             </p>
@@ -169,12 +169,12 @@ export default function ProductDetailPage({ params }) {
       </section>
 
       {/* Specifications Section */}
-      <section className="py-16 bg-summer-sand/10">
-        <div className="max-w-4xl mx-auto px-6">
-          <h2 className="text-3xl font-light tracking-wider mb-12 text-black uppercase text-center">
+      <section className="py-12 sm:py-16 bg-summer-sand/10">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl font-light tracking-wider mb-8 sm:mb-12 text-black uppercase text-center">
             Caractéristiques
           </h2>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid sm:grid-cols-2 gap-6 sm:gap-8">
             <div className="border-l-2 border-rose-quartz pl-6">
               <h3 className="text-sm tracking-wider uppercase mb-2 text-black/60">Composition</h3>
               <p className="text-black">100% coton biologique certifié GOTS</p>

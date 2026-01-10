@@ -20,10 +20,10 @@ export default function ProductsPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-light tracking-wider mb-6 text-black">
+      <section className="pt-24 sm:pt-32 pb-12 sm:pb-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="text-center mb-12 sm:mb-16">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light tracking-wider mb-4 sm:mb-6 text-black">
               COLLECTION
             </h1>
             <div className="w-24 h-px bg-black mx-auto mb-8"></div>
@@ -36,9 +36,9 @@ export default function ProductsPage() {
       </section>
 
       {/* Products Grid */}
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+      <section className="py-12 sm:py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-12">
             {products.map((product) => (
               <Link 
                 key={product.id}
@@ -62,10 +62,10 @@ export default function ProductsPage() {
                 </div>
                 
                 <div className="text-center">
-                  <h3 className="text-l font-light tracking-wider uppercase mb-2 text-black group-hover:text-cameo-green transition-colors">
+                  <h3 className="text-base sm:text-lg font-light tracking-wider uppercase mb-2 text-black group-hover:text-cameo-green transition-colors">
                     {product.name}
                   </h3>
-                  <p className="text-sm text-black/60 mb-2 tracking-wide">{product.category}</p>
+                  <p className="text-xs sm:text-sm text-black/60 mb-2 tracking-wide">{product.category}</p>
                 </div>
               </Link>
             ))}
@@ -74,9 +74,9 @@ export default function ProductsPage() {
       </section>
 
       {/* Info Banner */}
-      <section className="py-24 bg-summer-sand/20">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-2xl font-light tracking-wider uppercase mb-6 text-black">
+      <section className="py-16 sm:py-24 bg-summer-sand/20">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-xl sm:text-2xl font-light tracking-wider uppercase mb-4 sm:mb-6 text-black">
             Mode Responsable
           </h2>
           <p className="text-black/70 leading-relaxed">
