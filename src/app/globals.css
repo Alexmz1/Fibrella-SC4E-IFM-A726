@@ -2,21 +2,20 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #000000;
+  --rose-quartz: #f7caca;
+  --summer-sand: #d6cbba;
+  --cameo-green: #AABFAD;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-rose-quartz: var(--rose-quartz);
+  --color-summer-sand: var(--summer-sand);
+  --color-cameo-green: var(--cameo-green);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
