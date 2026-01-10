@@ -8,9 +8,8 @@ export default function ProductsPage() {
   const products = [
     {
       id: 1,
-      name: "Veste Circulaire",
+      name: "Blouse Fibrella SC4E-IFM-A726",
       category: "Vêtements",
-      price: "189€",
       image: "/placeholder-product.jpg",
       color: "rose-quartz"
     }
@@ -63,11 +62,10 @@ export default function ProductsPage() {
                 </div>
                 
                 <div className="text-center">
-                  <h3 className="text-xl font-light tracking-wider uppercase mb-2 text-black group-hover:text-cameo-green transition-colors">
+                  <h3 className="text-l font-light tracking-wider uppercase mb-2 text-black group-hover:text-cameo-green transition-colors">
                     {product.name}
                   </h3>
                   <p className="text-sm text-black/60 mb-2 tracking-wide">{product.category}</p>
-                  <p className="text-lg font-light text-black">{product.price}</p>
                 </div>
               </Link>
             ))}
