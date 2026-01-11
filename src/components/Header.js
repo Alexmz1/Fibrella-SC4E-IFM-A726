@@ -23,6 +23,12 @@ export default function Header() {
           <Link href="/products" className="text-sm tracking-wider uppercase text-black hover:text-rose-quartz transition-colors">
             Collection
           </Link>
+          <Link href="/fournisseur" className="text-sm tracking-wider uppercase text-black hover:text-summer-sand transition-colors">
+            Fournisseur
+          </Link>
+          <Link href="/engagements" className="text-sm tracking-wider uppercase text-black hover:text-cameo-green transition-colors">
+            Nos engagements
+          </Link>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -58,6 +64,20 @@ export default function Header() {
               onClick={() => setIsMenuOpen(false)}
             >
               Collection
+            </Link>
+            <Link 
+              href="/fournisseur" 
+              className="text-sm tracking-wider uppercase text-black hover:text-summer-sand transition-colors py-2"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Fournisseur
+            </Link>
+            <Link 
+              href="/engagements" 
+              className="text-sm tracking-wider uppercase text-black hover:text-cameo-green transition-colors py-2"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Nos engagements
             </Link>
           </div>
         </nav>
