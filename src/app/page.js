@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -79,6 +80,41 @@ export default function Home() {
                 et des savoir-faire traditionnels.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Histoire de la marque Section */}
+      <section className="py-16 sm:py-24 bg-rose-quartz/10">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6">
+          <h2 className="text-3xl sm:text-4xl font-light tracking-wider mb-8 sm:mb-12 text-black uppercase text-center">
+            Histoire de la marque
+          </h2>
+          
+          {/* Image 1 */}
+          <div className="mb-8 sm:mb-12">
+            <div className="max-w-3xl mx-auto">
+              <Image
+                src="/item/home/1.jpg"
+                alt="Fibrella Paris"
+                width={1000}
+                height={667}
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+
+          {/* Texte */}
+          <div className="space-y-6 text-sm sm:text-base text-black/70 leading-relaxed">
+            <p>
+              <span className="font-semibold">Fibrella</span> est une <span className="font-semibold">entreprise française de prêt-à-porter</span>, située à <span className="font-semibold">Paris, dans le 13ᵉ arrondissement (75013)</span>. La marque s'inscrit pleinement dans une démarche de <span className="font-semibold">mode circulaire et responsable</span>, plaçant la <span className="font-semibold">durabilité</span>, l'<span className="font-semibold">éthique</span> et la <span className="font-semibold">transparence</span> au cœur de l'ensemble de son processus de création.
+            </p>
+            <p>
+              Implantée dans le 13ᵉ arrondissement, <span className="font-semibold">Fibrella développe ses projets en collaboration avec les locaux de l'Institut Français de la Mode</span>, renforçant ainsi son ancrage dans un écosystème créatif, technique et expérimental.
+            </p>
+            <p>
+              Fibrella adopte une approche <span className="font-semibold">entièrement transparente sur la traçabilité de ses produits</span>. Chaque pièce est pensée comme un <span className="font-semibold">objet durable</span>, dont l'origine des matières, les étapes de conception, de prototypage et de fabrication, ainsi que la gestion de la fin de vie, sont clairement identifiées et accessibles au client. Cette transparence vise à instaurer une relation de confiance durable et à encourager une <span className="font-semibold">consommation plus consciente, informée et responsable</span>.
+            </p>
           </div>
         </div>
       </section>
