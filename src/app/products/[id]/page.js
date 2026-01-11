@@ -37,16 +37,43 @@ export default function ProductDetailPage({ params }) {
         </div>
       </section>
 
-      {/* Image 7 avant Conception */}
+      {/* Mosaïque d'images avant Conception */}
       <section className="py-8 sm:py-12">
-        <div className="max-w-md mx-auto px-4 sm:px-6">
-          <Image
-            src="/item/7.jpg"
-            alt="Détail produit"
-            width={500}
-            height={375}
-            className="w-full h-auto"
-          />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+            <div className="relative aspect-square w-full overflow-hidden">
+              <Image
+                src="/item/7.jpg"
+                alt="Détail produit"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative aspect-square w-full overflow-hidden">
+              <Image
+                src="/item/8AFA14D6-8FA4-48EF-9F2B-2F5DB708DBF2_1_105_c.jpeg"
+                alt="Détail produit"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative aspect-square w-full overflow-hidden">
+              <Image
+                src="/item/C9840CF4-6A9F-4AF6-BDFE-4B1C6B340044_1_105_c.jpeg"
+                alt="Détail produit"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative aspect-square w-full overflow-hidden">
+              <Image
+                src="/item/D9B1A924-EC69-4AFC-A44D-A37CF73E1824_1_105_c.jpeg"
+                alt="Détail produit"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
