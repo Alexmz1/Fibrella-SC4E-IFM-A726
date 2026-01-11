@@ -26,7 +26,7 @@ export default function FournisseurPage() {
       <section className="py-12 sm:py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
           <p className="text-base sm:text-lg text-black/80 leading-relaxed mb-6">
-            Concernant l'expédition de ses produits, la marque <span className="font-medium">Fibrella</span> s'inscrit dans une démarche globale de responsabilité, en collaborant exclusivement avec des entreprises et des ateliers partageant les mêmes engagements éthiques et environnementaux.
+            Concernant l'<span className="font-semibold">expédition de ses produits</span>, la marque <span className="font-semibold">Fibrella</span> s'inscrit dans une démarche globale de responsabilité, en collaborant exclusivement avec des <span className="font-semibold">entreprises et des ateliers partageant les mêmes engagements éthiques et environnementaux</span>.
           </p>
           <p className="text-base sm:text-lg text-black/80 leading-relaxed">
             Chaque étape, de la conception à l'envoi, est pensée afin de limiter l'impact écologique tout en valorisant des savoir-faire locaux et responsables.
@@ -73,7 +73,7 @@ export default function FournisseurPage() {
             Papeterie Française
           </h2>
           <p className="text-base sm:text-lg text-black/80 leading-relaxed mb-6">
-            Pour les packagings d'expédition, <span className="font-medium">Fibrella</span> collabore avec une papeterie française située à <span className="font-medium">Montségur</span>, spécialisée dans la fabrication de papier de soie 100 % écologique.
+            Pour les <span className="font-semibold">packagings d'expédition</span>, <span className="font-semibold">Fibrella</span> collabore avec une <span className="font-semibold">papeterie française située à Montségur</span>, spécialisée dans la fabrication de <span className="font-semibold">papier de soie 100 % écologique</span>.
           </p>
           <p className="text-base sm:text-lg text-black/80 leading-relaxed">
             Ce papier est conçu dans le respect de normes environnementales strictes et s'inscrit dans une logique de production durable et raisonnée.
@@ -121,19 +121,19 @@ export default function FournisseurPage() {
           </h2>
           <div className="space-y-6">
             <div className="border-l-4 border-rose-quartz pl-6">
-              <h3 className="text-lg font-medium mb-2 text-black">FSC</h3>
+              <h3 className="text-lg font-medium mb-2 text-black"><span className="font-semibold">FSC</span></h3>
               <p className="text-base text-black/80 leading-relaxed">
-                L'entreprise et son artisanat sont certifiés FSC, garantissant une gestion responsable des ressources forestières.
+                L'entreprise et son artisanat sont <span className="font-semibold">certifiés FSC</span>, garantissant une gestion responsable des ressources forestières.
               </p>
             </div>
             <div className="border-l-4 border-cameo-green pl-6">
-              <h3 className="text-lg font-medium mb-2 text-black">SEDEX</h3>
+              <h3 className="text-lg font-medium mb-2 text-black"><span className="font-semibold">SEDEX</span></h3>
               <p className="text-base text-black/80 leading-relaxed">
                 Attestant de pratiques éthiques en matière de conditions de travail et de chaîne d'approvisionnement.
               </p>
             </div>
             <div className="border-l-4 border-summer-sand pl-6">
-              <h3 className="text-lg font-medium mb-2 text-black">Imprim'Luxe</h3>
+              <h3 className="text-lg font-medium mb-2 text-black"><span className="font-semibold">Imprim'Luxe</span></h3>
               <p className="text-base text-black/80 leading-relaxed">
                 Les impressions répondent également aux standards Imprim'Luxe, assurant une qualité haut de gamme tout en respectant des critères environnementaux exigeants.
               </p>
@@ -187,13 +187,13 @@ export default function FournisseurPage() {
             Smartpack.me
           </h2>
           <p className="text-base sm:text-lg text-black/80 leading-relaxed mb-6">
-            Dans cette même logique d'engagement environnemental, <span className="font-medium">Fibrella</span> collabore également avec <span className="font-medium">Smartpack.me</span>, une entreprise française spécialisée dans la conception et la production de boîtes en carton écologiques.
+            Dans cette même logique d'engagement environnemental, <span className="font-semibold">Fibrella collabore également avec Smartpack.me</span>, une <span className="font-semibold">entreprise française spécialisée dans la conception et la production de boîtes en carton écologiques</span>.
           </p>
           <p className="text-base sm:text-lg text-black/80 leading-relaxed mb-6">
             Les solutions développées par Smartpack.me répondent à des critères stricts de durabilité, en privilégiant des matériaux recyclés et recyclables, tout en garantissant une qualité de fabrication adaptée aux exigences du secteur de la mode.
           </p>
           <p className="text-base sm:text-lg text-black/80 leading-relaxed">
-            Ces boîtes, pensées pour limiter l'impact environnemental, sont certifiées selon des normes reconnues, assurant à la fois la traçabilité des matières premières, une gestion responsable des ressources et des procédés de fabrication respectueux de l'environnement. Leur conception s'inscrit dans une démarche d'éco-conception globale, où fonctionnalité, protection du produit et réduction des déchets sont étroitement liées.
+            Ces boîtes, pensées pour limiter l'impact environnemental, sont <span className="font-semibold">certifiées selon des normes reconnues</span>, assurant à la fois la traçabilité des matières premières, une gestion responsable des ressources et des procédés de fabrication respectueux de l'environnement. Leur conception s'inscrit dans une démarche d'éco-conception globale, où fonctionnalité, protection du produit et réduction des déchets sont étroitement liées.
           </p>
         </div>
       </section>

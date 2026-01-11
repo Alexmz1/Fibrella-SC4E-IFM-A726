@@ -59,19 +59,19 @@ export default function ProductDetailPage({ params }) {
           <div className="grid md:grid-cols-2 gap-8 sm:gap-12 items-start">
             <div>
               <p className="text-sm sm:text-base text-black/70 leading-relaxed mb-4">
-                Le protocole de conception de la marque Fibrella repose sur une approche de création fondée sur le patronage zéro déchet. Dès la phase de recherche jusqu'au prototypage, chaque pièce est pensée afin de réduire au maximum les chutes de matière, en intégrant les contraintes du textile directement dans le processus créatif.
+                Le <span className="font-semibold">protocole de conception de la marque Fibrella</span> repose sur une approche de création fondée sur le <span className="font-semibold">patronage zéro déchet</span>. Dès la phase de recherche jusqu'au prototypage, chaque pièce est pensée afin de <span className="font-semibold">réduire au maximum les chutes de matière</span>, en intégrant les contraintes du textile directement dans le processus créatif.
               </p>
               <p className="text-sm sm:text-base text-black/70 leading-relaxed mb-4">
-                Fibrella s'inscrit ainsi dans une démarche éco-responsable, où la conception du vêtement ne se limite pas à l'esthétique mais intègre une réflexion globale sur l'impact environnemental. Le patron devient un outil de création à part entière : il structure la silhouette tout en répondant à des enjeux de durabilité.
+                Fibrella s'inscrit ainsi dans une démarche <span className="font-semibold">éco-responsable</span>, où la conception du vêtement ne se limite pas à l'esthétique mais intègre une réflexion globale sur l'impact environnemental. Le patron devient un outil de création à part entière : il structure la silhouette tout en répondant à des enjeux de durabilité.
               </p>
               <p className="text-sm sm:text-base text-black/70 leading-relaxed mb-4">
-                La blouse SC4E-IFM-A726 illustre pleinement cette philosophie. Elle est conçue en soie sauvage beige, une matière naturelle à l'aspect organique, choisie pour sa texture vivante et sa tenue. Son patronage zéro déchet permet une utilisation intégrale du métrage, transformant chaque surface de tissu en élément structurant du vêtement.
+                La <span className="font-semibold">blouse SC4E-IFM-A726</span> illustre pleinement cette philosophie. Elle est conçue en <span className="font-semibold">soie sauvage beige</span>, une matière naturelle à l'aspect organique, choisie pour sa texture vivante et sa tenue. Son <span className="font-semibold">patronage zéro déchet</span> permet une utilisation intégrale du métrage, transformant chaque surface de tissu en élément structurant du vêtement.
               </p>
               <p className="text-sm sm:text-base text-black/70 leading-relaxed mb-4">
-                La blouse a également été pensée dans une logique d'inclusivité et de modularité. Sa construction permet un porté du 38 au 44, grâce à une silhouette adaptable qui dialogue avec le corps plutôt que de l'enfermer dans une taille figée. Le vêtement devient ainsi évolutif, durable et accessible à différentes morphologies.
+                La blouse a également été pensée dans une logique d'<span className="font-semibold">inclusivité et de modularité</span>. Sa construction permet un porté du <span className="font-semibold">38 au 44</span>, grâce à une silhouette adaptable qui dialogue avec le corps plutôt que de l'enfermer dans une taille figée. Le vêtement devient ainsi évolutif, durable et accessible à différentes morphologies.
               </p>
               <p className="text-sm sm:text-base text-black/70 leading-relaxed">
-                À travers cette pièce, Fibrella affirme une vision de la mode tournée vers l'avenir : une mode responsable, conceptuelle et consciente, où innovation formelle et engagement environnemental avancent ensemble.
+                À travers cette pièce, Fibrella affirme une vision de la mode tournée vers l'avenir : une mode <span className="font-semibold">responsable, conceptuelle et consciente</span>, où innovation formelle et engagement environnemental avancent ensemble.
               </p>
             </div>
             <div className="max-w-lg mx-auto md:mx-0">
@@ -107,7 +107,7 @@ export default function ProductDetailPage({ params }) {
             </div>
             <div>
               <p className="text-sm sm:text-base text-black/70 leading-relaxed">
-                Fibrella collabore avec l'entreprise française Fibre Bio pour la blouse SC4E‑IFM‑A726, tandis que le tissu en soie recyclée utilisé provient de fournisseurs basés en Inde.
+                Fibrella collabore avec l'entreprise française <span className="font-semibold">Fibre Bio</span> pour la <span className="font-semibold">blouse SC4E‑IFM‑A726</span>, tandis que le tissu en <span className="font-semibold">soie recyclée</span> utilisé provient de fournisseurs basés en <span className="font-semibold">Inde</span>.
               </p>
             </div>
           </div>
@@ -137,7 +137,7 @@ export default function ProductDetailPage({ params }) {
           {/* Texte sur la soie sauvage */}
           <div className="max-w-4xl mx-auto mt-12 sm:mt-16">
             <p className="text-sm sm:text-base text-black/70 leading-relaxed mb-8 sm:mb-12">
-              La blouse SC4E-IFM-A726 est conçue en soie sauvage recyclée issue d'une culture biologique, non violente et responsable ainsi que de fils de soie certifiée Oeko-tex.
+              La <span className="font-semibold">blouse SC4E-IFM-A726</span> est conçue en <span className="font-semibold">soie sauvage recyclée issue d'une culture biologique, non violente et responsable ainsi que de fils de soie certifiée Oeko-tex</span>.
             </p>
           </div>
 
@@ -203,10 +203,10 @@ export default function ProductDetailPage({ params }) {
             </div>
             <div>
               <p className="text-sm sm:text-base text-black/70 leading-relaxed mb-4">
-                La broderie présente sur la blouse ne relève pas d'un simple geste décoratif : elle constitue un protocole identitaire propre à la pièce. Chaque blouse porte une référence brodée unique, pensée comme un identifiant lisible et durable, directement intégré au vêtement.
+                La <span className="font-semibold">broderie présente sur la blouse</span> ne relève pas d'un simple geste décoratif : elle constitue un <span className="font-semibold">protocole identitaire propre à la pièce</span>. Chaque blouse porte une <span className="font-semibold">référence brodée unique</span>, pensée comme un identifiant lisible et durable, directement intégré au vêtement.
               </p>
               <p className="text-sm sm:text-base text-black/70 leading-relaxed">
-                Ce code fonctionne comme un lien entre l'objet physique et son existence numérique. Il suffit au client de saisir la référence de la série dans une barre de recherche internet pour être redirigé vers le site de la marque Fibrella, et plus précisément vers la page dédiée à l'article. Cette interface regroupe l'ensemble des informations liées à la pièce : son processus de conception, les matières utilisées, le patronage zéro déchet, les conditions de fabrication, ainsi que les intentions créatives qui ont guidé sa réalisation.
+                Ce code fonctionne comme un <span className="font-semibold">lien entre l'objet physique et son existence numérique</span>. Il suffit au client de saisir la <span className="font-semibold">référence de la série</span> dans une barre de recherche internet pour être redirigé vers le <span className="font-semibold">site de la marque Fibrella</span>, et plus précisément vers la page dédiée à l'article. Cette interface regroupe l'ensemble des informations liées à la pièce : son processus de conception, les matières utilisées, le patronage zéro déchet, les conditions de fabrication, ainsi que les intentions créatives qui ont guidé sa réalisation.
               </p>
             </div>
           </div>
@@ -214,10 +214,10 @@ export default function ProductDetailPage({ params }) {
           {/* Texte sur la fin de vie */}
           <div className="max-w-5xl mx-auto mb-8 sm:mb-12">
             <p className="text-sm sm:text-base text-black/70 leading-relaxed mb-4">
-              La broderie permet également d'accéder aux informations concernant la fin de vie du vêtement. Fibrella intègre ainsi une réflexion circulaire, en informant le client sur les solutions de réparation, de transformation ou de recyclage possibles, afin de prolonger ou revaloriser la pièce au-delà de son usage initial.
+              La broderie permet également d'accéder aux <span className="font-semibold">informations concernant la fin de vie du vêtement</span>. Fibrella intègre ainsi une réflexion circulaire, en informant le client sur les solutions de réparation, de transformation ou de recyclage possibles, afin de prolonger ou revaloriser la pièce au-delà de son usage initial.
             </p>
             <p className="text-sm sm:text-base text-black/70 leading-relaxed">
-              Par ce système, la broderie devient une signature fonctionnelle, à la fois trace, archive et outil de transmission. Elle ancre le vêtement dans une temporalité élargie, où chaque pièce conserve la mémoire de sa création et anticipe déjà son devenir.
+              Par ce système, la broderie devient une <span className="font-semibold">signature fonctionnelle</span>, à la fois trace, archive et outil de transmission. Elle ancre le vêtement dans une temporalité élargie, où chaque pièce conserve la mémoire de sa création et anticipe déjà son devenir.
             </p>
           </div>
 
@@ -252,13 +252,13 @@ export default function ProductDetailPage({ params }) {
             </div>
             <div>
               <p className="text-sm sm:text-base text-black/80 leading-relaxed mb-4">
-                Dans une logique de responsabilité étendue et de circularité totale, <span className="font-medium">Fibrella</span> a mis en place un protocole précis pour la fin de vie de chacun de ses produits, en collaboration avec les entreprises <span className="font-medium">Collecte Éco Textile</span> et <span className="font-medium">Framinex</span>, partenaires déjà engagés ensemble dans le recyclage textile. Depuis 2025, Fibrella s'est officiellement associée à ces acteurs afin de garantir une gestion maîtrisée, sécurisée et traçable de ses pièces en fin d'usage.
+                Dans une logique de <span className="font-semibold">responsabilité étendue et de circularité totale</span>, <span className="font-semibold">Fibrella a mis en place un protocole précis pour la fin de vie de chacun de ses produits</span>, en collaboration avec les entreprises <span className="font-semibold">Collecte Éco Textile</span> et <span className="font-semibold">Framinex</span>, partenaires déjà engagés ensemble dans le recyclage textile. <span className="font-semibold">Depuis 2025</span>, Fibrella s'est officiellement associée à ces acteurs afin de garantir une gestion maîtrisée, sécurisée et traçable de ses pièces en fin d'usage.
               </p>
               <p className="text-sm sm:text-base text-black/80 leading-relaxed mb-4">
-                Grâce à Collecte Éco Textile, Fibrella déploie sur l'ensemble du territoire français des conteneurs de récupération sécurisés, exclusivement dédiés aux produits de la marque. L'accès à ces conteneurs est contrôlé : pour y déposer une ou plusieurs pièces à recycler, le client doit entrer le code-barres brodé directement sur le vêtement, assurant ainsi une identification précise du produit et une traçabilité complète jusqu'à sa fin de vie.
+                Grâce à <span className="font-semibold">Collecte Éco Textile</span>, Fibrella déploie sur l'ensemble du territoire français des <span className="font-semibold">conteneurs de récupération sécurisés</span>, exclusivement dédiés aux produits de la marque. L'accès à ces conteneurs est contrôlé : pour y déposer une ou plusieurs pièces à recycler, le client doit <span className="font-semibold">entrer le code-barres brodé directement sur le vêtement</span>, assurant ainsi une identification précise du produit et une traçabilité complète jusqu'à sa fin de vie.
               </p>
               <p className="text-sm sm:text-base text-black/80 leading-relaxed">
-                Chaque semaine, Collecte Éco Textile récupère le contenu des conteneurs et l'achemine vers l'entreprise française <span className="font-medium">Framinex</span>, spécialisée dans le tri, la transformation et le recyclage des matières textiles. Les fibres recyclées sont ensuite réintégrées dans un nouveau cycle de production : elles peuvent être revalorisées sous forme de nouvelles matières, et réintroduites au sein de l'atelier Fibrella, fermant ainsi la boucle de la création.
+                Chaque semaine, <span className="font-semibold">Collecte Éco Textile récupère le contenu des conteneurs</span> et l'achemine vers l'entreprise française <span className="font-semibold">Framinex</span>, spécialisée dans le <span className="font-semibold">tri, la transformation et le recyclage des matières textiles</span>. Les fibres recyclées sont ensuite réintégrées dans un nouveau cycle de production : elles peuvent être <span className="font-semibold">revalorisées sous forme de nouvelles matières</span>, et <span className="font-semibold">réintroduites au sein de l'atelier Fibrella</span>, fermant ainsi la boucle de la création.
               </p>
             </div>
           </div>
