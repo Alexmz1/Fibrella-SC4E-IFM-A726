@@ -10,18 +10,15 @@ export default function ProductDetailPage({ params }) {
       {/* Hero Image Section */}
       <section className="pt-20 sm:pt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="relative aspect-[4/3] sm:aspect-[16/9] bg-rose-quartz/20 mb-8 sm:mb-12">
-            {/* Placeholder pour image hero */}
-            <div className="w-full h-full flex items-center justify-center">
-              <div className="text-center">
-                <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-white/50 flex items-center justify-center">
-                  <svg className="w-16 h-16 text-black/30" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                  </svg>
-                </div>
-                <p className="text-sm text-black/40 tracking-wider">IMAGE HERO</p>
-              </div>
-            </div>
+          <div className="relative aspect-[4/3] sm:aspect-[16/9] bg-rose-quartz/20 mb-8 sm:mb-12 overflow-hidden">
+            <Image
+              src="/item/E537A07E-D724-4DFD-A655-4AFABD8BF1FC.jpeg"
+              alt="Blouse Fibrella SC4E-IFM-A726"
+              fill
+              className="object-cover"
+              priority
+              sizes="100vw"
+            />
           </div>
         </div>
       </section>
@@ -44,18 +41,14 @@ export default function ProductDetailPage({ params }) {
       <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="grid md:grid-cols-2 gap-8 sm:gap-12 items-center">
-            <div className="relative aspect-[3/4] bg-cameo-green/20">
-              {/* Placeholder image */}
-              <div className="w-full h-full flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-white/50 flex items-center justify-center">
-                    <svg className="w-12 h-12 text-black/30" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                  </div>
-                  <p className="text-sm text-black/40 tracking-wider">DETAIL IMAGE 1</p>
-                </div>
-              </div>
+            <div className="relative aspect-[3/4] bg-cameo-green/20 overflow-hidden">
+              <Image
+                src="/item/F8CAC61F-5595-4193-8060-ADF227329AF9_1_105_c.jpeg"
+                alt="Détail conception"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
             </div>
             <div>
               <h2 className="text-2xl sm:text-3xl font-light tracking-wider mb-4 sm:mb-6 text-black uppercase">
@@ -91,18 +84,14 @@ export default function ProductDetailPage({ params }) {
                 peut être recyclé ou composté en fin de vie, fermant ainsi la boucle.
               </p>
             </div>
-            <div className="relative aspect-[3/4] bg-summer-sand/30 order-1 md:order-2">
-              {/* Placeholder image */}
-              <div className="w-full h-full flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-white/50 flex items-center justify-center">
-                    <svg className="w-12 h-12 text-black/30" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                  </div>
-                  <p className="text-sm text-black/40 tracking-wider">DETAIL IMAGE 2</p>
-                </div>
-              </div>
+            <div className="relative aspect-[3/4] bg-summer-sand/30 order-1 md:order-2 overflow-hidden">
+              <Image
+                src="/item/8AFA14D6-8FA4-48EF-9F2B-2F5DB708DBF2_1_105_c.jpeg"
+                alt="Détail matériaux"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
             </div>
           </div>
         </div>
@@ -112,18 +101,14 @@ export default function ProductDetailPage({ params }) {
       <section className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="grid md:grid-cols-2 gap-8 sm:gap-12 items-center">
-            <div className="relative aspect-[3/4] bg-rose-quartz/20">
-              {/* Placeholder image */}
-              <div className="w-full h-full flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-white/50 flex items-center justify-center">
-                    <svg className="w-12 h-12 text-black/30" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                  </div>
-                  <p className="text-sm text-black/40 tracking-wider">DETAIL IMAGE 3</p>
-                </div>
-              </div>
+            <div className="relative aspect-[3/4] bg-rose-quartz/20 overflow-hidden">
+              <Image
+                src="/item/C9840CF4-6A9F-4AF6-BDFE-4B1C6B340044_1_105_c.jpeg"
+                alt="Détail artisanat"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
             </div>
             <div>
               <h2 className="text-2xl sm:text-3xl font-light tracking-wider mb-4 sm:mb-6 text-black uppercase">
@@ -145,19 +130,15 @@ export default function ProductDetailPage({ params }) {
 
       {/* Full Width Image Section */}
       <section className="py-12 sm:py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="relative aspect-[16/9] sm:aspect-[21/9] bg-cameo-green/20 mb-6 sm:mb-8">
-            {/* Placeholder image large */}
-            <div className="w-full h-full flex items-center justify-center">
-              <div className="text-center">
-                <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-white/50 flex items-center justify-center">
-                  <svg className="w-16 h-16 text-black/30" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                  </svg>
-                </div>
-                <p className="text-sm text-black/40 tracking-wider">FULL WIDTH IMAGE</p>
-              </div>
-            </div>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <div className="relative aspect-[3/4] max-h-[600px] bg-cameo-green/20 mb-6 sm:mb-8 overflow-hidden mx-auto">
+            <Image
+              src="/item/D9B1A924-EC69-4AFC-A44D-A37CF73E1824_1_105_c.jpeg"
+              alt="Image full width"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 896px"
+            />
           </div>
           <div className="max-w-3xl mx-auto text-center px-4">
             <p className="text-base sm:text-lg text-black/70 leading-relaxed italic">
@@ -177,15 +158,19 @@ export default function ProductDetailPage({ params }) {
           <div className="grid sm:grid-cols-2 gap-6 sm:gap-8">
             <div className="border-l-2 border-rose-quartz pl-6">
               <h3 className="text-sm tracking-wider uppercase mb-2 text-black/60">Composition</h3>
-              <p className="text-black">100% coton biologique certifié GOTS</p>
+              <p className="text-black">100% soie certifiée GOTS</p>
             </div>
             <div className="border-l-2 border-cameo-green pl-6">
               <h3 className="text-sm tracking-wider uppercase mb-2 text-black/60">Origine</h3>
-              <p className="text-black">Fabriqué en France avec amour</p>
+              <p className="text-black">Fabriqué en France (Blouse)</p>
             </div>
             <div className="border-l-2 border-summer-sand pl-6">
               <h3 className="text-sm tracking-wider uppercase mb-2 text-black/60">Entretien</h3>
-              <p className="text-black">Lavage à froid, séchage naturel</p>
+              <p className="text-black">Lavage à sec, lavage à froid, pas de blanchiment, pas d'essorage, séchage à plat, repassage à basse température</p>
+            </div>
+            <div className="border-l-2 border-cameo-green pl-6">
+              <h3 className="text-sm tracking-wider uppercase mb-2 text-black/60">Construction</h3>
+              <p className="text-black">Spécial patronage 0 WASTE</p>
             </div>
             <div className="border-l-2 border-rose-quartz pl-6">
               <h3 className="text-sm tracking-wider uppercase mb-2 text-black/60">Impact</h3>
